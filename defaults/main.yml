@@ -36,8 +36,8 @@ agent_interfaces:
 # Zabbix configuration variables
 agent_pidfile: /var/run/zabbix/zabbix_agentd.pid
 agent_logfile: /var/log/zabbix/zabbix_agentd.log
-agent_logfilesize: 100
-agent_debuglevel: 3
+agent_logfilesize: 0
+#agent_debuglevel: 3
 agent_sourceip:
 agent_enableremotecommands: 0
 agent_logremotecommands: 0
